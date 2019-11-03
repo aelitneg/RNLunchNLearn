@@ -11,7 +11,9 @@ export default class ChilComponent extends Component {
 
   render() {
     return (
+      // 5a. Access props <- 
       <View style={this.props.style}>
+        {/* 5b. Function props */}
         <Button title="COUNT" onPress={() => {this.props.onCount()}}></Button>
       </View>
     );

@@ -16,6 +16,7 @@ export default class AsyncComponent extends Component {
     };
   }
 
+  // 7. Lifecycle Hooks
   async componentDidMount() {
     const response = await Axios.get('http://localhost:3000/test');
 
@@ -25,6 +26,7 @@ export default class AsyncComponent extends Component {
   }
 
   render() {
+    // 6a. Conditional rendering
     if (!this.state.message) {
       return null;
     }
