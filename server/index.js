@@ -2,9 +2,9 @@ const express = require('express');
 const app = express();
 const PORT = 3000;
 
-app.get('/lunch', (req, res) => {
+app.get('/test', (req, res) => {
   res.send({
-    message: 'learn'
+    message: 'Hello from Node Land!'
   })
 });
 
