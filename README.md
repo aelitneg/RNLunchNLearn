@@ -57,4 +57,7 @@ This is a simple app designed to provide a crash course on developing in React N
     npm run ios
     ```
 
+## Google Slides
+The accompanying slides for this repo are available [here](https://docs.google.com/presentation/d/1HuwWCiAgbL_M09TcDTNsuweGzKGlImjq6_cFcegTOcc/edit?usp=sharing).
+
   
